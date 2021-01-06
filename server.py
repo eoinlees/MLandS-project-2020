@@ -2,6 +2,7 @@
 import flask as fl
 # numpy for numerical work.
 import numpy as np
+import prediction
 
 # Create a new web app.
 app = fl.Flask(__name__)
@@ -14,10 +15,12 @@ def home():
 # Add prediction route.
 @app.route('/api/predict')
 def predict():
-    print("This is where the program predicts values")
+    test()
     return {"value": np.random.uniform()}
+
 
 ## Add normal route.
 #@app.route('/api/normal')
 #def normal():
 #  return {"value": np.random.normal()}
+
