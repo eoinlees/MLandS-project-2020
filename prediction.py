@@ -52,4 +52,6 @@ from tensorflow.keras.models import load_model
 model = load_model('./my_model.h5')
 
 test()
-print(model.predict([15.0]))
+prediction = model.predict([15.0])
+print(str(prediction[0][0]))
+#print(prediction)
