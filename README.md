@@ -1,9 +1,7 @@
 # Machine Learning and Statistics - Project 2020 - Assignment
 ## Eoin Lees - G00387888 - January 2021
 
-
-The following program i the project for the machine learning and statistics module in January 2021. 
-
+This is the project for the machine learning and statistics module in January 2021. 
 
 It is run using Jupyter notebooks and docker.
 
@@ -17,8 +15,7 @@ It can be read directly from git hub, however for full functionallity please dow
     Navigate to the correct folder in the console and type the following command: Jupyter notebooks
     Use the gui provided in the web explorer and select `Project-2020.ipynb`
 
-## Docker
-
+## Run application
 ### Linux
 ```bash
 export FLASK_APP=server.py
@@ -30,7 +27,7 @@ python3 -m flask run
 set FLASK_APP=server.py
 python -m flask run
 ```
-
+### Docker
 ```bash
 docker build -t server-app .
 docker run --name server-container -d -p 5000:5000 server-app
