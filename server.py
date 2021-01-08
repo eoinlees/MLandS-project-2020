@@ -1,7 +1,7 @@
 # flask for web app.
-import numpy as np
+#import numpy as np
 import flask as fl
-from flask import jsonify
+#from flask import jsonify
 # import keras load model
 from tensorflow.keras.models import load_model
 # Create a new web app.

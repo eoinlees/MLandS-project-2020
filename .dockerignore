@@ -6,3 +6,7 @@ README.md
 __pycache__/
 *.py[cod]
 *$py.class
+.ipynb
+.csv
+./Old files
+.ipynb_checkpoints
